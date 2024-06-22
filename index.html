@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Car Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about page">
+    <link rel="stylesheet" href="booking page">
+    <link rel="stylesheet" href="home page">
+    <link rel="stylesheet" href="service page">
+    <link rel="stylesheet" href="contact page">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="download.png" alt="RentalCar Logo">
+                <span>RentalCar</span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="content">
+            <h1>Discover Your Dream Drive</h1>
+            <p>Redefining luxury car rentals</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="content">
+            <h2>Our Fleet</h2>
+            <p>Explore our exquisite collection of vehicles.</p>
+            <div class="service-container">
+                <div class="service">
+                    <img src="images.jpg" alt="Economy Cars">
+                    <h3>Economy Cars</h3>
+                    <p>Affordable and fuel-efficient.</p>
+                </div>
+                <div class="service">
+                    <img src="download.jpg" alt="Luxury Cars">
+                    <h3>Luxury Cars</h3>
+                    <p>Unmatched comfort and style.</p>
+                </div>
+                <div class="service">
+                    <img src="images (1).jpg" alt="SUVs">
+                    <h3>SUVs</h3>
+                    <p>Spacious and versatile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="content">
+            <h2>Book Your Ride</h2>
+            <p>Start your journey with us today.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Car Type" required>
+                <input type="date" placeholder="Pick-up Date" required>
+                <input type="date" placeholder="Return Date" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section> 
+        <div class="content">
+            <h2>About Us</h2>
+            <p>Discover our commitment to excellence.</p>
+            <p>Delivering premium service since 2004.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="content">
+            <h2>What Our Clients Say</h2>
+            <p>Customer satisfaction is our top priority.</p>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"Excellent service and great cars! Highly recommend."</p>
+                    <span>- John Doe</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Smooth booking process and top-notch vehicles."</p>
+                    <span>- Jane Smith</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for inquiries or bookings.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2024 RentalCar. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="rentalservice"
+      agent-id="86ba2384-e0fc-443d-89bf-76ea59ef7021"
+      language-code="en"
+    ></df-messenger>
+</body>
+</html>

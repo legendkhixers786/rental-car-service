@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Rental Car Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="download.png" alt="RentalCar Logo">
+                <span>RentalCar</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services" style="background-color: #f9f9f9;">
+        <div class="content">
+            <h2>Our Fleet</h2>
+            <p>Explore our exquisite collection of vehicles.</p>
+            <div class="service-container">
+                <div class="service">
+                    <img src="images.jpg" alt="Economy Cars">
+                    <h3>Economy Cars</h3>
+                    <p>Affordable and fuel-efficient.</p>
+                </div>
+                <div class="service">
+                    <img src="download.jpg" alt="Luxury Cars">
+                    <h3>Luxury Cars</h3>
+                    <p>Unmatched comfort and style.</p>
+                </div>
+                <div class="service">
+                    <img src="images (1).jpg" alt="SUVs">
+                    <h3>SUVs</h3>
+                    <p>Spacious and versatile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2024 RentalCar. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="rentalservice"
+      agent-id="YOUR_AGENT_ID"
+      language-code="en"
+    ></df-messenger>
+</body>
+</html>
